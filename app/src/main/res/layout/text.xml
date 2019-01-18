@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/title_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="地铁四号线年底前开通！公交无缝接驳，地铁5号、6号线好消息不断"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#333333" />
+
+    <TextView
+        android:id="@+id/source_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="中国新闻网"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/remark_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_1"
+        android:layout_toRightOf="@+id/source_1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"
+        android:text="37评论"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/time_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_1"
+        android:layout_toRightOf="@+id/remark_1"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="30分钟前"
+        android:textSize="12dp"/>
+
+</RelativeLayout>

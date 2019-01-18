@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/cover_2"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/cover"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/title_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@+id/cover_2"
+        android:layout_marginRight="7dp"
+        android:text="此小品不上春晚太可惜了，搞笑之后带来的是浓浓的反思！"
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="8dp"
+        android:lines="3"
+        android:ellipsize="end"/>
+
+
+    <TextView
+        android:id="@+id/source_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cover_2"
+        android:layout_marginTop="5dp"
+        android:text="新华社"
+        android:textSize="12dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/remark_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cover_2"
+        android:layout_toRightOf="@+id/source_2"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"
+        android:text="5162评论"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:id="@+id/time_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cover_2"
+        android:layout_toRightOf="@id/remark_2"
+        android:text="刚刚"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="8dp"/>
+
+
+</RelativeLayout>
